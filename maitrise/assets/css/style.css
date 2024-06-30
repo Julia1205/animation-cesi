@@ -1,0 +1,45 @@
+
+body{
+    margin: 0%;
+    padding: 0%
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 1%;
+}
+.nav > li > a{
+    color: pink;
+    text-decoration: none;
+}
+.nav > li > a:visited{
+    color: azure;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.name{
+    text-align: center;
+    width: 75%;
+}
+h1{
+    color: red;
+}
+#competences{
+    max-width: 15%;
+    border-right: 1px solid black;
+}
+#exp{
+    margin-left: 1%;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
